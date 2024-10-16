@@ -6,7 +6,7 @@ class Zadanie:
             b = c
         return b
 
-zadanie = Zadanie()
+zadanie = Zadanie() #obiekt klasy
 a, b = input("Podaj dwie liczby: ").split() #.split dzieli podana wartosc dwoch liczb odzielona spacja na dwie zmienne
 a = int(a) #deklaracja ze a jest liczba calkowita
 b = int(b)
