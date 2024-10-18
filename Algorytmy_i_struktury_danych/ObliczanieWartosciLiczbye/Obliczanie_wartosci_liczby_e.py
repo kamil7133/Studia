@@ -25,7 +25,7 @@ class Zadanie:
 
         return suma
 
-    def exp_efektywna(selfself, x, epsilon):
+    def exp_efektywna(self, x, epsilon):
         suma = 1
         wyraz = 1
         i = 1
