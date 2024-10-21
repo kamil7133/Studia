@@ -1,0 +1,15 @@
+Funkcja ma generować fraktal na podstawie wybranego zbioru (Mandelbrota lub Julii) oraz zadanego zestawu parametrów.
+
+Na początku ustawiamy siatkę punktów, która określa obszar płaszczyzny zespolonej, gdzie fraktal będzie rysowany.
+Wartości rzeczywiste i urojone są definiowane przez użytkownika za pomocą przedziałów \(ReMin\) do \(ReMax\)
+oraz \(ImMin\) do \(ImMax\).
+
+W pętli dwuwymiarowej przechodzimy przez każdy punkt siatki, gdzie sprawdzamy, który zbiór został wybrany.
+Dla zbioru Mandelbrota rozpoczynamy iteracje od \(z = 0\), natomiast dla zbioru Julii od bieżącego punktu \(z = x + iy\).
+
+Iterujemy dla każdego punktu w zakresie maksymalnej liczby iteracji. W trakcie iteracji sprawdzamy,
+czy wartość \(z\) nie przekroczyła promienia \(rGran\). Jeżeli tak, przerywamy pętlę dla danego punktu.
+W przeciwnym razie iterujemy dalej zgodnie z równaniem fraktalnym \(z = z^{pot} + c\).
+
+Na koniec wynik każdej iteracji jest zapisywany do macierzy, która potem zostaje użyta do wizualizacji
+fraktala za pomocą odpowiedniej kolorystyki.
