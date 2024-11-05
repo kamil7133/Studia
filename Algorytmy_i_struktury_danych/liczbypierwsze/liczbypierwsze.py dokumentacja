@@ -13,3 +13,8 @@ operacji dla dużych liczb n.
 
 Jeżeli reszta z dzielenia n % i jest równa zeru, oznacza to, że liczba n ma dzielnik inny niż 1 i samo n, więc
 nie jest liczbą pierwszą. Zwracamy False
+
+Gdy liczba jest liczbą pierwszą zwracamy True
+
+Na końcu, zdefiniowanie obiektu klasy, oraz klasyczny input z warunkami żeby program działał(zmiana na inta, warunki if
+itp.). Jeżeli True to liczba jest liczbą pierwszą, w innym wypadku - nie jest liczbą pierwszą.

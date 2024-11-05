@@ -12,6 +12,11 @@ class Zadanie():
 
 
 zadanie = Zadanie()
-print(zadanie.czylpierwsza(12))
+n = input("Podaj liczbę do sprawdzenia: ")
+n = int(n)
 
+if zadanie.czylpierwsza(n) is True:
+    print("Liczba jest liczbą pierwszą.")
+else:
+    print("Liczba nie jest liczbą pierwszą")
 

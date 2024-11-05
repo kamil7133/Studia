@@ -8,5 +8,9 @@ Dla kazdej wartości i klucza w  elementach słownika, dopóki podana liczba prz
 iterowanego elementu dodajemy do pustej zmiennej string f odpowiednik rzymski, odejmując liczbę f od podanej liczby
 użytkownika n. Na końcu funkcji zwracamy string f.
 
+Ostatnie linijki to zdefiniowanie obiektu klasy, input i elementy try / except żeby program dobrze działał pytając
+użytkownika - jeżeli funkcja zwraca value error to użytkownik dostaje printa.
+
 Dla porównanie dodaję funkcje arab bez użytego słownika dla kontrastu. Widać jak bardzo można uprościć i skrócić samą
 funkcję.
+
