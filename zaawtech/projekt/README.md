@@ -61,3 +61,13 @@ Aby uruchomić dashboard lokalnie, w terminalu wpisz:
 ```
 streamlit run app.py
 ```
+
+### Screeny:
+
+![img.png](pngs/img.png)
+
+![img.png](pngs/img2.png)
+
+![img.png](pngs/img3.png)
+
+![img.png](pngs/img4.png)
