@@ -29,7 +29,7 @@ print("zadanie 3")
 v = float(input("Podaj predkosc wiatru: "))
 tu = float(input("Podaj temperature otoczenia: "))
 
-to = 13.12 + (0.6215 * tu) - (11.37 * (pow(v, 0.16)) + ((0.3965 * tu) * (pow(v, 0.16))))
+to = 13.12 + (0.6215 * tu) - (11.37 * (pow(v, 0.16)) + (0.3965 * tu * (pow(v, 0.16))))
 print(f"Temperatura odczuwalna to {to:.1f} stopni Celciusza")
 #4
 print("zadanie 4")
