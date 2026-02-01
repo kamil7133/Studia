@@ -40,9 +40,9 @@ def kategoryzacja_i_czyszczenie(desc):
 
         return pd.Series([category, brand])
 
-def ladowanie_i_normalizacja(filepath: str) -> pd.DataFrame:
+def ladowanie_i_normalizacja(filepath):
     # Wczytanie danych z pliku CSV
-    df = pd.read_csv(filepath_or_buffer='filepath', delimiter=',')
+    df = pd.read_csv(filepath_or_buffer=filepath, delimiter=',')
 
     # Normalizacja
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
